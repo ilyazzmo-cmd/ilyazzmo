@@ -12,5 +12,7 @@ def test_is_palindrome():
     assert is_palindrome("racecar") == True
     assert is_palindrome("hello") == False
     assert is_palindrome("Was it a car or a cat I saw") == True
+def test_addition():
+    assert 2 + 3 == 6  
 
 print("All tests passed!")
